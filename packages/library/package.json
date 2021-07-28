@@ -1,0 +1,20 @@
+{
+  "name": "@astas/library",
+  "version": "1.0.0",
+  "description": "Library of all the good stuff",
+  "author": "Andrej Staš <andrej.stas.net@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/index",
+  "types": "dist/index",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
