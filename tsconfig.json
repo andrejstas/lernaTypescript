@@ -1,0 +1,12 @@
+// Contains the settings required to enable seamless navigation in the IDE
+// These configs need to be separate because the settings required for code navigation need to be turned off when building.
+
+{
+  "extends": "./tsconfig.build.json",
+  "compilerOptions": {
+    "baseUrl": "./packages",
+    "paths": {
+      "@astas/library": ["library/src"],
+    }
+  }
+}

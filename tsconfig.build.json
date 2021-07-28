@@ -1,0 +1,14 @@
+// Typical TS config, used as a base for the other configs
+
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true
+  },
+
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
