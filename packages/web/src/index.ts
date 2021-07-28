@@ -1,3 +1,3 @@
-import meaningOfLife from '@astas/library';
+import { meaningOfLife } from '@astas/library';
 
 console.log(meaningOfLife);
